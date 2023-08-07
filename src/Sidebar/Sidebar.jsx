@@ -24,13 +24,13 @@ export default function Sidebar() {
 
       </Box>
 
-       <Box mt={3} display='flex'  pl={5} gap={2} justifyContent='center' flexDirection='column' >
+       <Box mt={1} display='flex'  pl={5} gap={2} justifyContent='center' flexDirection='column' >
         <Typography variant='h6'  sx={{fontSize:"23px"}}>Catgory</Typography>
         <Box>
         <Catagory></Catagory>
        </Box>
        </Box>
-       <Box mt={2} display='flex' pl={5} gap={2} justifyContent='center' flexDirection='column'>
+       <Box mt={1} display='flex' pl={5} gap={2} justifyContent='center' flexDirection='column'>
         <Typography variant='h6'  sx={{fontSize:"23px"}}>Color</Typography>
         <Box mr={3}>
        <Color></Color>
