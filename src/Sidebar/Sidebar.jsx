@@ -2,7 +2,7 @@ import { Box, Paper, Typography } from '@mui/material'
 import React, { useContext } from 'react'
 import Catagory from '../Commponent/Catagory'
 import Color from '../Commponent/Color'
-import CloseIcon from '@mui/icons-material/Close';
+//import CloseIcon from '@mui/icons-material/Close';
 import { AppContext } from '../App';
 
 
@@ -15,7 +15,7 @@ export default function Sidebar() {
   return (
     <>
           <Box onClick={close}  sx={{position:'fixed',display:{xs:'bolck',lg:'none',md:'block',sm:"block"}}} ml={18} mt={3}  zIndex={999} >
-            <CloseIcon sx={{fontSize:"40px"}}></CloseIcon>
+           
           </Box>
      <Box zIndex={2}  sx={{height:'100vh',overflow:'hidden',width:{xs:'200px',md:"200px",sm:'200px'}, position:{lg:'sticky',md:'fixed',sm:'fixed',xs:'fixed'},top:'0 !important'}}>
          <Paper elevation={3} sx={{height:'100vh'}}>
